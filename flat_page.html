@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectionhome">
+        <div class="bg-container d-flex flex-column text-center justify-content-end">
+            <div class="card-container">
+                <div>
+                    <h1 class="card-heading">Sunries Avenue</h1>
+                    <p class="card-para"> Move to what Moves you</p>
+                </div>
+                <button class="btn1" onclick="display('sectionflatlist')">Book FLats</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="sectionflatlist">
+        <div class="flat-page-container ">
+            <h1 class="card-heading-2">Sunrise Avenue</h1>
+            <div class="flat-card" onclick="display('section3bhkpage')">
+                <div class=" d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card1-img.png" class="card-img" />
+                    <div>
+                        <h1 class="flat-card-heading">3BHK Flats</h1>
+                        <p class="flat-card-para">BHK stands for Bedroom, Hall and Kitchen, and indicates the number of bedrooms, hall and kitchen in the apartment. For instance, a 2BHK apartment will have two bedrooms, one hall and one kitchen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flat-card" onclick="display('section2bhkpage')">
+                <div class=" d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card2-img.png" class="card-img" />
+                    <div>
+                        <h1 class="flat-card-heading">2BHK Flats</h1>
+                        <p class="flat-card-para">BHK stands for Bedroom, Hall and Kitchen, and indicates the number of bedrooms, hall and kitchen in the apartment. For instance, a 2BHK apartment will have two bedrooms, one hall and one kitchen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flat-card" onclick="display('section4bhkpage')">
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-card3-img.png" class="card-img" />
+                    <div>
+
+                        <h1 class="flat-card-heading">4BHK Flats</h1>
+                        <p class="flat-card-para">BHK stands for Bedroom, Hall and Kitchen, and indicates the number of bedrooms, hall and kitchen in the apartment. For instance, a 2BHK apartment will have two bedrooms, one hall and one kitchen.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="button">
+                <button class="btn1" onclick="display('sectionhome')">back</button>
+            </div>
+        </div>
+    </div>
+    <div id="section3bhkpage">
+        <div class="flat-page-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d1-img.png" class="flat-page-img" />
+            <div>
+                <h1 class="flat-page-heading">Rs 3000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-img" />
+                    <p class="card-para-2">D/N 5-2,Food Street, Indore</p>
+                </div>
+                <h1 class="flat-page-heading">Description</h1>
+                <p class="card-para-3">BHK stands for Bedroom, Hall and Kitchen, and indicates the number of bedrooms, hall and kitchen in the apartment. For instance, a 2BHK apartment will have two bedrooms, one hall and one kitchen.</p>
+            </div>
+            <div class="d-felx flex-row text-center">
+                <button class="btn1">Confirm</button>
+                <button class="btn1" onclick="display('sectionflatlist')">Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="section2bhkpage">
+        <div class="flat-page-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d2-img.png" class="flat-page-img" />
+            <div>
+                <h1 class="flat-page-heading">Rs 3000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-img" />
+                    <p class="card-para-2">D/N 5-2,Food Street, Indore</p>
+                </div>
+                <h1 class="flat-page-heading">Description</h1>
+                <p class="card-para-3">BHK stands for Bedroom, Hall and Kitchen, and indicates the number of bedrooms, hall and kitchen in the apartment. For instance, a 2BHK apartment will have two bedrooms, one hall and one kitchen.</p>
+            </div>
+            <div class="d-felx flex-row text-center">
+                <button class="btn1">Confirm</button>
+                <button class="btn1" onclick="display('sectionflatlist')">Back</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="section4bhkpage">
+        <div class="flat-page-container">
+            <img src="https://assets.ccbp.in/frontend/static-website/flats-list-d3-img.png" class="flat-page-img" />
+            <div>
+                <h1 class="flat-page-heading">Rs 3000/-</h1>
+                <div class="d-flex flex-row">
+                    <img src="https://assets.ccbp.in/frontend/static-website/flats-list-location-icon-img.png" class="location-img" />
+                    <p class="card-para-2">D/N 5-2,Food Street, Indore</p>
+                </div>
+                <h1 class="flat-page-heading">Description</h1>
+                <p class="card-para-3">BHK stands for Bedroom, Hall and Kitchen, and indicates the number of bedrooms, hall and kitchen in the apartment. For instance, a 2BHK apartment will have two bedrooms, one hall and one kitchen.</p>
+            </div>
+            <div class="d-felx flex-row text-center">
+                <button class="btn1">Confirm</button>
+                <button class="btn1" onclick="display('sectionflatlist')">Back</button>
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

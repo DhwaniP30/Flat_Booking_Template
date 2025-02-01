@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://assets.ccbp.in/frontend/static-website/flats-list-bg.png");
+    height: 100vh;
+    background-size: cover;
+}
+
+.card-container {
+    background-color: #ffffff;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    padding: 60px;
+}
+
+.card-heading {
+    color: #f19116;
+    font-family: "Bree Serif";
+    font-size: 40px;
+}
+
+.card-para {
+    color: #7b8789;
+    font-family: "Bree Serif";
+    font-size: 18px;
+}
+
+.btn1 {
+    background-color: #f19116;
+    border-style: none;
+    padding: 9px;
+    border-radius: 5px;
+    width: 124px;
+    color: #ffffff;
+    margin: 13px;
+}
+
+.flat-page-container {
+    background-color: #222222;
+    height: 120vh;
+}
+
+.card-heading-2 {
+    color: #f19116;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    padding: 19px;
+}
+
+.flat-card {
+    background-color: #ffffff;
+    margin: 20px;
+    border-radius: 6px;
+
+}
+
+.flat-card-heading {
+    color: #0f0e46;
+    font-family: "Bree Serif";
+    font-weight: bold;
+    font-size: 30px;
+    padding: 12px;
+}
+
+.card-img {
+    height: 240px;
+
+    width: 190px;
+}
+
+.flat-card-para {
+    color: #7b8789;
+    padding-left: 12px;
+    font-family: "Bree Serif";
+}
+
+.button {
+    margin-left: 35px;
+
+}
+
+.flat-page-img {
+    height: 50vh;
+    background-size: cover;
+    width: 100vw;
+
+
+}
+
+.flat-page-heading {
+    color: #f19116;
+    font-family: "Bree Serif";
+    font-size: 40px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.location-img {
+    height: 55px;
+    padding-left: 30px;
+    padding-top: 13px;
+}
+
+.card-para-2 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 18px;
+    padding-top: 16px;
+    padding-left: 12px;
+}
+
+.card-para-3 {
+    color: #ffffff;
+    font-family: "Bree Serif";
+    font-size: 18px;
+    padding-top: 16px;
+    padding-left: 30px;
+}
